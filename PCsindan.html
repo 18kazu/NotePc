@@ -1,0 +1,30 @@
+      <!DOCTYPE html>
+      <html lang="ja">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>おすすめWindowsノートパソコン診断</title>
+        <link rel="stylesheet" href="PCsindan.css">
+      </head>
+      <body>
+        <h2>あなたにおすすめの<br>Windowsノートパソコンを<br>診断いたします。</h2>
+          <p id="question">①動画編集、画像編集、3DCG、オンラインゲームのいずれかをやりたい</p>
+        <input type="button" id="p8" value="yes" onclick="fun01();fun11();fun04();"/>
+        <input type="button" id="n1" value="no" onclick="fun02();fun05()"/>
+
+        <input type="button" id="p4" value="yes" onclick="fun06();fun03();fun08()"/>
+        <input type="button" id="n2"value="no" onclick="fun06();fun03()"/>
+
+        <input type="button" id="p2" value="yes" onclick="fun01();fun07();fun09()">
+        <input type="button" id="n3"value="no" onclick="fun01();fun07();">
+
+        <input type="button" id="p1" value="yes" onclick="fun10();an01()">
+        <input type="button" id="n4"value="no" onclick="an01()">
+      
+          <div id="recommend"></div>
+          <div id="NotePc"></div>
+          <div id="you"></div>
+      <script src="PCsindan.js"></script>
+      </body>
+      </html>
